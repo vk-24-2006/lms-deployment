@@ -13,8 +13,6 @@ import EmployeeDashboard from "./components/EmployeeDashboard";
 import OwnerDashboard from "./components/OwnerDashboard";
 import SystemSettings from "./components/SystemSettings";
 
-import SearchBooks from "./components/SearchBooks";
-import Facilities from "./components/Facilities";
 import BorrowTrack from "./components/BorrowTrack";
 import Payment from "./components/Payment";
 
@@ -32,8 +30,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/search" element={<SearchBooks />} />
-        <Route path="/facilities" element={<Facilities />} />
         <Route path="/borrow-track" element={<BorrowTrack />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/system-settings" element={<SystemSettings />} />
